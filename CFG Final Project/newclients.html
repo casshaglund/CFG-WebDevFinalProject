@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.js">
+
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Cormorant+Garamond">
+
+    <script src="https://kit.fontawesome.com/f8aa1a1611.js" crossorigin="anonymous"></script>
+
+    <link rel="icon" type="image/x-icon" href="images/lundlblack.png">
+
+</head>
+
+<body>
+
+    <nav class="header">
+
+        <div class="navbar">
+            <a href="/index.html">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/portfolio.html">Portfolio</a>
+            <a href="/newclients.html">New Clients</a>
+            <a href="/contact.html">Contact</a>
+        </div>
+        <div class="navbar">
+            <div class="logo">
+                <img src="/images/lund2.png" alt="lundlogo">
+            </div>
+        </div>
+
+    </nav>
+
+
+
+
+    <div class="newClient">
+        <div class="newClientBlock">
+            <img src="/images/home/SU410_ROSEUNIACKE_BEDROOMC1_HERO_0.jpg" alt="bathroom">
+        </div>
+        <div class="newClientBlock">
+            <h2>New Clients</h2>
+            <p>We are so honored to be considered for your upcoming project.
+                LUND focuses on renovations and whole-home
+                projects that allow us to deliver fully realized designs. We love working with architects, contractors,
+                and artists to bring the vision to life in a process-driven, passion-fueled way that makes the
+                experience easy and enjoyable for our clients. We would love to hear more about your project.
+                <br><br>
+                Please fill out the form below and we will be in touch as soon as possible.
+            </p>
+
+
+
+            <button class="open-button" onclick="openForm()">Intake Form</button>
+
+            <div class="form-popup" id="myForm">
+                <form action="/action_page.php" class="form-container">
+                    <h1>New Client Intake</h1>
+
+                    <label for="text"><b>First & Last Name</b></label>
+                    <input type="text" placeholder="" name="text" required>
+
+                    <label for="text"><b>Email Address</b></label>
+                    <input type="text" placeholder="" name="text" required>
+
+                    <label for="text"><b>Phone Number</b></label>
+                    <input type="text" placeholder="" name="text" required>
+
+                    <label for="text"><b>Address 1</b></label>
+                    <input type="text" placeholder="" name="text" required>
+
+                    <label for="text"><b>Postcode</b></label>
+                    <input type="text" placeholder="" name="text" required>
+
+                    <label for="text"><b>City</b></label>
+                    <input type="text" placeholder="" name="text" required>
+
+                    <label for="text"><b>Country</b></label>
+                    <input type="text" placeholder="" name="text" required>
+
+                    <label for="text"><b>What service are you interested in?</b></label>
+                    <input type="text" placeholder="" name="text" required>
+
+                    <label for="text"><b>Have you worked with a designer in the past? Y/N</b></label>
+                    <input type="text" placeholder="" name="text" required>
+
+                    <label for="text"><b>Please describe the project scope:</b></label>
+                    <input type="text" placeholder="" name="text" required>
+
+                    <label for="text"><b>Furnishings Budget</b></label>
+                    <input type="text" placeholder="" name="text" required>
+
+                    <label for="text"><b>Timeline and finish goal:</b></label>
+                    <input type="text" placeholder="" name="text" required>
+
+                  
+
+                    <button type="submit" class="btn">Submit</button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                </form>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <div class="newClient">
+        <hr>
+    </div>
+
+
+
+    <div class="clientReviews">
+
+        <div class="clientReviewsBlock">
+            <p>"I cannot say enough wonderful things about Gen and her team. When we purchased our first home, we new it
+                was special but needed work. What Gen did with the space is incredible and everything we wanted. Not
+                only is she great at her job, she is warm, intuitive, patient, kind, positive, and fun to be around!
+                There is no one better!"</p>
+            <h2>Jessica Owens</h2>
+        </div>
+        <div class="clientReviewsBlock">
+            <img src="/images/home/uniackeII012_0.jpg" alt="sitting">
+        </div>
+        <div class="clientReviewsBlock">
+            <p>"We worked with Gen and the team back in 2020 after a move into a larger house. We needed design support
+                for some "blank areas" as well as full interior design services. The Lund Team came recommended to me by
+                a colleague and I am so happy we found them! I truly enjoyed working with every one of them. Most
+                importantly she brought our vision to life - and added so much value. I look around our home today and
+                it could not have come together without each and every one of them. Cannot recommend her enough!"</p>
+            <h2>The Cunninghams</h2>
+        </div>
+        <div class="clientReviewsBlock">
+            <img src="/images/home/tumblr_o7njw4LVde1sorueao1_1280.jpg" alt="sitting">
+        </div>
+    </div>
+
+
+
+
+
+    <div class="footer">
+        <img src="/images/lundwhiteint2.png">
+
+        <div class="creamWrapper">
+            <h3>Featured In</h3>
+            <div class="footerFeaturedIn">
+                <img src="/images/featured/ad.png" alt="AD">
+                <img src="/images/featured/elle.png" alt="Elle">
+                <img src="/images/featured/forbes.png" alt="Forbes">
+                <img src="/images/featured/lofficiel.png" alt="L'Officiel">
+                <img src="/images/featured/marieclaire.png" alt="MarieClaire">
+                <img src="/images/featured/vanity-fair.png" alt="Vanity Fair">
+            </div>
+        </div>
+
+
+        <div class="footerNavbar">
+            <div class="footerNavbar">
+                <a href="/index.html">Home</a>
+                <a href="/about.html">About</a>
+                <a href="/portfolio.html">Portfolio</a>
+                <a href="/contact.html">Contact</a>
+                <a href="">/</a>
+                <a href="https://www.instagram.com/">Instagram</a>
+                <a href="https://www.pinterest.com/">Pinterest</a>
+            </div>
+        </div>
+
+
+        <div class="credits">
+            <p>© Lund Interior Design 2022 </p>
+        </div>
+        </form>
+
+    </div>
+
+</body>
+<script src="/index.js"></script>
+
+</html>
