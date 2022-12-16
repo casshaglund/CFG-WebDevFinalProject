@@ -14,11 +14,11 @@
 
 ### What were the challenges?
 
-- I struggled with JavaScript until I realized I wasnt linking to my JS files, & the navbar gave me some issues. 
+- I struggled with JavaScript until I realized I wasnt linking to my JS files, it was a silly little mistake but it drove me absolutely mad for hours. I also had a harder time with making my website responsive than I was expecting, I feel my code for responsive is very messy and know there must be a better way to do what I was wanting. Also, the navbar gave me some issues. 
 
 ### How will you expand your current project?
 
-- I need to add more JavaScript and interactive elements to the website. Possibly building out the careers page more as well.
+- I'd like to add more JavaScript and interactive elements to the website. Possibly building out the careers page more as well. And cleaning up my responsive code.
 
 ## Author
 
