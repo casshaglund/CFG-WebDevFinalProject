@@ -22,4 +22,4 @@
 
 ## Author
 
-- Connect with me on [instagram](https://www.instagram.com/codeswithcass) or [email](mailto:codeswithcass@gmail.com).
+- Connect with me on [here](https://lnk.bio/casshaglund).
