@@ -2,9 +2,10 @@
 
  An interior design website for my final project.
  
-![CFG Final Project Mockup](https://user-images.githubusercontent.com/115661621/208087237-e72cae11-09d5-4bd8-9e44-58baf6d266be.png)
-
 [Hosted on Netlify](https://cassandrahaglund-finalproject.netlify.app/index.html)
+
+ 
+![CFG Final Project Mockup](https://user-images.githubusercontent.com/115661621/208087237-e72cae11-09d5-4bd8-9e44-58baf6d266be.png)
     
 ## CFG Presentation Takeaway
 
